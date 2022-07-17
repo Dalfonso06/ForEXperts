@@ -23,9 +23,12 @@ class CalendarViewController: UIViewController {
 
     // will check if username and password checks out
     private func handleLogin() {
-        let loginVC = LoginViewController()
-        loginVC.modalPresentationStyle = .fullScreen
-        present(loginVC, animated: false)
+        // condition for text fields should go here
+        if true {
+            let loginVC = LoginViewController()
+            loginVC.modalPresentationStyle = .fullScreen
+            present(loginVC, animated: false)
+        }
     }
 
 }
