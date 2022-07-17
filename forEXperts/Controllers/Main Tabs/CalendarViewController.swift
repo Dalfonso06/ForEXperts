@@ -17,18 +17,6 @@ class CalendarViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // check if login was valid
-        handleLogin()
-    }
-
-    // will check if username and password checks out
-    private func handleLogin() {
-        // condition for text fields should go here
-        if true {
-            let loginVC = LoginViewController()
-            loginVC.modalPresentationStyle = .fullScreen
-            present(loginVC, animated: false)
-        }
     }
 
 }
