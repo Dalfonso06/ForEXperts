@@ -18,6 +18,7 @@
 		24DFAB5628838D06006C6D7F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5528838D06006C6D7F /* NotificationsViewController.swift */; };
 		24DFAB5828838D1A006C6D7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */; };
 		24DFAB5C28838DB7006C6D7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */; };
+		24DFAB5F288445EC006C6D7F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5E288445EC006C6D7F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		24DFAB5528838D06006C6D7F /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24DFAB5E288445EC006C6D7F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		24DFAB3928838ABB006C6D7F /* forEXperts */ = {
 			isa = PBXGroup;
 			children = (
+				24DFAB5D288445D2006C6D7F /* Classes */,
 				24DFAB5028838C55006C6D7F /* Storyboards */,
 				24DFAB4F28838C06006C6D7F /* Resources */,
 				24DFAB4E28838BEB006C6D7F /* Controllers */,
@@ -120,6 +123,14 @@
 				24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		24DFAB5D288445D2006C6D7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DFAB5E288445EC006C6D7F /* Person.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				24DFAB5628838D06006C6D7F /* NotificationsViewController.swift in Sources */,
 				24DFAB5C28838DB7006C6D7F /* LoginViewController.swift in Sources */,
 				24DFAB5828838D1A006C6D7F /* ProfileViewController.swift in Sources */,
+				24DFAB5F288445EC006C6D7F /* Person.swift in Sources */,
 				24DFAB5228838CE0006C6D7F /* HistoryViewController.swift in Sources */,
 				24DFAB5428838CEC006C6D7F /* NewTradeViewController.swift in Sources */,
 			);

@@ -10,10 +10,24 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var users:[Person] = []
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let Daniel = Person(firstName: "Daniel",
+                            lastName: "Alfonso",
+                            loginName: "Dalfonso",
+                            password: "6096463")
+        
+        let Simon = Person(firstName: "Simon",
+                           lastName: "Bruce",
+                           loginName: "Sbruce",
+                           password: "6247755")
+        
+        users.append(Daniel)
+        users.append(Simon)
+        
         return true
     }
 
