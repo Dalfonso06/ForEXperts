@@ -20,8 +20,15 @@ class CalendarViewController: UIViewController {
     }
     
     private func display() {
-        if true {
-            let loginVC = LoginViewController()
+        // creating an instance of LoginViewController with the storyboard identifier
+        guard let loginVC = storyboard?.instantiateViewController(identifier: "Login") as? LoginViewController else {
+            print("failed")
+            return
+        }
+        
+        // checking if username and password match
+        if !loginVC.validLogin {
+            print("while loop going")
             loginVC.modalPresentationStyle = .fullScreen
             present(loginVC, animated: false)
         }
