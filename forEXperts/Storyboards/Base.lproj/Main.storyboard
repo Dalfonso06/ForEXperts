@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0R3-TP-Gbd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ADc-qG-avG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -57,6 +57,13 @@
                         <viewLayoutGuide key="safeArea" id="gSO-89-8Kj"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="LoginImage" destination="VkK-Yd-cMg" id="cPV-4O-Opj"/>
+                        <outlet property="PasswordLabel" destination="xKs-fW-AT0" id="2cc-Bm-agb"/>
+                        <outlet property="PasswordText" destination="haI-Fc-7rk" id="gGK-OZ-F57"/>
+                        <outlet property="UsernameLabel" destination="sZi-PC-d3f" id="x5k-GA-Cey"/>
+                        <outlet property="UsernameText" destination="AQV-CJ-3WK" id="Hh3-Rm-pA1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zzg-N5-Gha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
