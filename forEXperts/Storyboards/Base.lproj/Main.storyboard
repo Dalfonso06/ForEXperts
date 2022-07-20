@@ -108,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="-1664" y="133"/>
         </scene>
-        <!--Calendar View Controller-->
+        <!--Calendar-->
         <scene sceneID="JIb-ux-cBg">
             <objects>
                 <viewController id="oIe-Us-Q2f" customClass="CalendarViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,7 +118,7 @@
                         <viewLayoutGuide key="safeArea" id="v3f-c3-AdL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7Jv-aA-bsq"/>
+                    <navigationItem key="navigationItem" title="Calendar" id="7Jv-aA-bsq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7YD-5L-E7Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -192,7 +192,7 @@
             </objects>
             <point key="canvasLocation" x="1146" y="133"/>
         </scene>
-        <!--History View Controller-->
+        <!--History-->
         <scene sceneID="2AZ-ye-8pW">
             <objects>
                 <viewController id="Jf1-UZ-uJ1" customClass="HistoryViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -202,13 +202,13 @@
                         <viewLayoutGuide key="safeArea" id="acG-Cg-su2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LQC-lk-VF6"/>
+                    <navigationItem key="navigationItem" title="History" id="LQC-lk-VF6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sum-X5-0Ms" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-958" y="858"/>
         </scene>
-        <!--New Trade View Controller-->
+        <!--Add Trade-->
         <scene sceneID="U2p-zT-uzR">
             <objects>
                 <viewController id="Zow-R5-hVc" customClass="NewTradeViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -218,13 +218,13 @@
                         <viewLayoutGuide key="safeArea" id="dKl-oo-oac"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rxw-Ka-OTy"/>
+                    <navigationItem key="navigationItem" title="Add Trade" id="rxw-Ka-OTy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Z1-fv-cTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-264" y="858"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="Qg8-Tc-ldH">
             <objects>
                 <viewController id="Wz4-2m-5oT" customClass="ProfileViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -234,13 +234,13 @@
                         <viewLayoutGuide key="safeArea" id="XfZ-8Q-zZM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pCU-e5-om3"/>
+                    <navigationItem key="navigationItem" title="Profile" id="pCU-e5-om3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2K-Hg-ueV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1146" y="858"/>
         </scene>
-        <!--Notifications View Controller-->
+        <!--Notifications-->
         <scene sceneID="LBc-ES-2p2">
             <objects>
                 <viewController id="pnf-Il-1sA" customClass="NotificationsViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -250,7 +250,7 @@
                         <viewLayoutGuide key="safeArea" id="Zbl-bl-0Ze"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UGF-mL-DN3"/>
+                    <navigationItem key="navigationItem" title="Notifications" id="UGF-mL-DN3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dc0-FC-gQp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
