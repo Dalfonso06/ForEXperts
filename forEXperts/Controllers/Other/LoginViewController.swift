@@ -24,6 +24,8 @@ class LoginViewController: UIViewController {
         print("Login button pressed")
         for person in APP_DEL.users {
             if (person.loginName == userText.text && person.password == passwordText.text) {
+                dismiss(animated: true, completion: nil)
+                print("Valid Login")
                 validLogin = true;
             }
         }
