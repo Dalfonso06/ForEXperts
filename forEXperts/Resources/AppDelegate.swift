@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         users.append(Daniel)
         users.append(Simon)
         
+        APICaller.shared.getAllIcons()
+        
         return true
     }
 
