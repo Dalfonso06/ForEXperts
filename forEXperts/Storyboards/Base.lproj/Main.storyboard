@@ -195,7 +195,7 @@
             </objects>
             <point key="canvasLocation" x="-958" y="858"/>
         </scene>
-        <!--Add Trade-->
+        <!--New Trade-->
         <scene sceneID="U2p-zT-uzR">
             <objects>
                 <viewController id="Zow-R5-hVc" customClass="NewTradeViewController" customModule="forEXperts" customModuleProvider="target" sceneMemberID="viewController">
@@ -205,7 +205,7 @@
                         <viewLayoutGuide key="safeArea" id="dKl-oo-oac"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Add Trade" id="rxw-Ka-OTy"/>
+                    <navigationItem key="navigationItem" title="New Trade" id="rxw-Ka-OTy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Z1-fv-cTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
