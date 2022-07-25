@@ -20,9 +20,9 @@
 		24DFAB5828838D1A006C6D7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */; };
 		24DFAB5C28838DB7006C6D7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */; };
 		24DFAB5F288445EC006C6D7F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5E288445EC006C6D7F /* Person.swift */; };
-		90131DA4288B6AB200AC15A4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DA3288B6AB200AC15A4 /* APICaller.swift */; };
 		90131DA6288B6F9B00AC15A4 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DA5288B6F9B00AC15A4 /* CryptoTableViewCell.swift */; };
 		90131DA8288B75C700AC15A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DA7288B75C700AC15A4 /* Models.swift */; };
+		90131DB4288E6D7100AC15A4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DB3288E6D7100AC15A4 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +41,9 @@
 		24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		24DFAB5E288445EC006C6D7F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		90131DA3288B6AB200AC15A4 /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APICaller.swift; path = ../../../../Desktop/APICaller.swift; sourceTree = "<group>"; };
 		90131DA5288B6F9B00AC15A4 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		90131DA7288B75C700AC15A4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		90131DB3288E6D7100AC15A4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +137,10 @@
 		24DFAB5D288445D2006C6D7F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				90131DA3288B6AB200AC15A4 /* APICaller.swift */,
 				24DFAB5E288445EC006C6D7F /* Person.swift */,
 				90131DA5288B6F9B00AC15A4 /* CryptoTableViewCell.swift */,
 				90131DA7288B75C700AC15A4 /* Models.swift */,
+				90131DB3288E6D7100AC15A4 /* APICaller.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -218,6 +218,7 @@
 			files = (
 				24DFAB3F28838ABB006C6D7F /* CalendarViewController.swift in Sources */,
 				90131DA8288B75C700AC15A4 /* Models.swift in Sources */,
+				90131DB4288E6D7100AC15A4 /* APICaller.swift in Sources */,
 				24DFAB3B28838ABB006C6D7F /* AppDelegate.swift in Sources */,
 				24DFAB3D28838ABB006C6D7F /* SceneDelegate.swift in Sources */,
 				24DFAB5628838D06006C6D7F /* NotificationsViewController.swift in Sources */,
@@ -226,7 +227,6 @@
 				24DFAB5828838D1A006C6D7F /* ProfileViewController.swift in Sources */,
 				24DFAB5F288445EC006C6D7F /* Person.swift in Sources */,
 				90131DA6288B6F9B00AC15A4 /* CryptoTableViewCell.swift in Sources */,
-				90131DA4288B6AB200AC15A4 /* APICaller.swift in Sources */,
 				24DFAB5228838CE0006C6D7F /* HistoryViewController.swift in Sources */,
 				24DFAB5428838CEC006C6D7F /* NewTradeViewController.swift in Sources */,
 			);
