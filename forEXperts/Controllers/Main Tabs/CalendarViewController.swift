@@ -5,12 +5,16 @@
 //  Created by Daniel Alfonso on 7/16/22.
 //
 
+import FSCalendar
 import UIKit
 
-class CalendarViewController: UIViewController {
+class CalendarViewController: UIViewController, FSCalendarDelegate {
 
+    @IBOutlet var calendar: FSCalendar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        calendar.delegate = self
         display()
         // Do any additional setup after loading the view.
     }
@@ -28,6 +32,10 @@ class CalendarViewController: UIViewController {
         }
         loginVC.modalPresentationStyle = .fullScreen
         present(loginVC, animated: true)
+    }
+    
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        print("selected")
     }
     
 }

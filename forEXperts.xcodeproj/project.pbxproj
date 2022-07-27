@@ -20,6 +20,7 @@
 		24DFAB5828838D1A006C6D7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */; };
 		24DFAB5C28838DB7006C6D7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */; };
 		24DFAB5F288445EC006C6D7F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFAB5E288445EC006C6D7F /* Person.swift */; };
+		4BC0E81D13E1A583EF18151D /* Pods_forEXperts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD33D90BA188B035843263D8 /* Pods_forEXperts.framework */; };
 		90131DA6288B6F9B00AC15A4 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DA5288B6F9B00AC15A4 /* CryptoTableViewCell.swift */; };
 		90131DA8288B75C700AC15A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DA7288B75C700AC15A4 /* Models.swift */; };
 		90131DB4288E6D7100AC15A4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90131DB3288E6D7100AC15A4 /* APICaller.swift */; };
@@ -41,9 +42,12 @@
 		24DFAB5728838D1A006C6D7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		24DFAB5B28838DB7006C6D7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		24DFAB5E288445EC006C6D7F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		88F891C3AF86CBC982198FFE /* Pods-forEXperts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forEXperts.release.xcconfig"; path = "Target Support Files/Pods-forEXperts/Pods-forEXperts.release.xcconfig"; sourceTree = "<group>"; };
 		90131DA5288B6F9B00AC15A4 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		90131DA7288B75C700AC15A4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		90131DB3288E6D7100AC15A4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A0044CBE9177F59C85A49517 /* Pods-forEXperts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forEXperts.debug.xcconfig"; path = "Target Support Files/Pods-forEXperts/Pods-forEXperts.debug.xcconfig"; sourceTree = "<group>"; };
+		BD33D90BA188B035843263D8 /* Pods_forEXperts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forEXperts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC0E81D13E1A583EF18151D /* Pods_forEXperts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 			children = (
 				24DFAB3928838ABB006C6D7F /* forEXperts */,
 				24DFAB3828838ABB006C6D7F /* Products */,
+				25FD4AEE79C1ECC12B8F0523 /* Pods */,
+				C4E1A045D94F95E9F2D31DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +152,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		25FD4AEE79C1ECC12B8F0523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0044CBE9177F59C85A49517 /* Pods-forEXperts.debug.xcconfig */,
+				88F891C3AF86CBC982198FFE /* Pods-forEXperts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4E1A045D94F95E9F2D31DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD33D90BA188B035843263D8 /* Pods_forEXperts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DFAB4B28838AC3006C6D7F /* Build configuration list for PBXNativeTarget "forEXperts" */;
 			buildPhases = (
+				F3A4FCABD33B15072D08AC38 /* [CP] Check Pods Manifest.lock */,
 				24DFAB3328838ABB006C6D7F /* Sources */,
 				24DFAB3428838ABB006C6D7F /* Frameworks */,
 				24DFAB3528838ABB006C6D7F /* Resources */,
+				0CCB642ABB4207F0AF5CEAA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +237,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCB642ABB4207F0AF5CEAA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-forEXperts/Pods-forEXperts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-forEXperts/Pods-forEXperts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-forEXperts/Pods-forEXperts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A4FCABD33B15072D08AC38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-forEXperts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24DFAB3328838ABB006C6D7F /* Sources */ = {
@@ -372,6 +441,7 @@
 		};
 		24DFAB4C28838AC3006C6D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0044CBE9177F59C85A49517 /* Pods-forEXperts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +469,7 @@
 		};
 		24DFAB4D28838AC3006C6D7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F891C3AF86CBC982198FFE /* Pods-forEXperts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
