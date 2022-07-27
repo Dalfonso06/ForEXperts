@@ -27,8 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                            loginName: "Sbruce",
                            password: "6247755")
         
-        users.append(Simon);
+        
         users.append(Daniel);
+        users.append(Simon);
         
         
         APICaller.shared.getAllIcons()
