@@ -11,6 +11,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var users:[Person] = []
+    var userFirstName = ""
+    var userLastName = ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -25,8 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                            loginName: "Sbruce",
                            password: "6247755")
         
-        users.append(Daniel)
-        users.append(Simon)
+        users.append(Simon);
+        users.append(Daniel);
+        
         
         APICaller.shared.getAllIcons()
         

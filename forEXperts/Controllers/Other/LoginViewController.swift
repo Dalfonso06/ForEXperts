@@ -25,6 +25,8 @@ class LoginViewController: UIViewController {
             if (person.loginName == userText.text && person.password == passwordText.text) {
                 dismiss(animated: true, completion: nil)
                 print("Valid Login")
+                APP_DEL.userLastName = person.lastName
+                APP_DEL.userFirstName = person.firstName
                 validLogin = true
                 break
             } else {
